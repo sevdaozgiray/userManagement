@@ -28,24 +28,16 @@ public class UserController {
   }
 
 
-  @PostMapping
-  public User createUser(@RequestBody User user) {
-    return userService.saveUser(user);
-  }
-  @PostMapping("/json")
-  public UserJson createUser(@RequestBody UserJson userJson) {
-    return userService.saveUserJson(userJson);
-  }
-
-
   @GetMapping
-  public List<User> getUsers() {
-    return userService.getAllUsers();
+  public User getUser() {
+
+    return new User();
+  }
+
+  @GetMapping("/json")
+  public UserJson getUserJson() {
+    return new UserJson();
   }
 
 
-  @GetMapping("/{id}")
-  public User getUserById(@PathVariable Long id) {
-    return userService.getUserById(id);
-  }
 }

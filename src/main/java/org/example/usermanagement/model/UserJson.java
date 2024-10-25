@@ -8,17 +8,147 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  * @create 21.10.2024 16:37
  */
 public class UserJson {
-  @JsonProperty(value = "identity")
+  @JsonProperty(value = "t")
   private Long id;
 
-  @JsonProperty(value = "user_name")
+  @JsonProperty(value = "u")
   private String username;
 
-  @JsonProperty(value = "sıfre")
+  @JsonProperty(value = "s")
   private String password;
 
-  @JsonProperty(value = "e-mail")
+  @JsonProperty(value = "e")
   private String email;
+
+  @JsonProperty(value = "u1")
+  private String username1;
+
+  @JsonProperty(value = "s1")
+  private String password1;
+
+  @JsonProperty(value = "e1")
+  private String email1;
+
+  @JsonProperty(value = "u2")
+  private String username2;
+
+  @JsonProperty(value = "s2")
+  private String password2;
+
+  @JsonProperty(value = "e2")
+  private String email2;
+
+  @JsonProperty(value = "u3")
+  private String username3;
+
+  @JsonProperty(value = "s3")
+  private String password3;
+
+  @JsonProperty(value = "e3")
+  private String email3;
+  @JsonProperty(value = "u4")
+  private String username4;
+
+  public String getPassword4() {
+    return password4;
+  }
+
+  public void setPassword4(String password4) {
+    this.password4 = password4;
+  }
+
+  public String getUsername3() {
+    return username3;
+  }
+
+  public void setUsername3(String username3) {
+    this.username3 = username3;
+  }
+
+  public String getPassword3() {
+    return password3;
+  }
+
+  public void setPassword3(String password3) {
+    this.password3 = password3;
+  }
+
+  public String getEmail3() {
+    return email3;
+  }
+
+  public void setEmail3(String email3) {
+    this.email3 = email3;
+  }
+
+  public String getUsername4() {
+    return username4;
+  }
+
+  public void setUsername4(String username4) {
+    this.username4 = username4;
+  }
+
+  public String getEmail4() {
+    return email4;
+  }
+
+  public void setEmail4(String email4) {
+    this.email4 = email4;
+  }
+
+  @JsonProperty(value = "s4")
+  private String password4;
+
+  @JsonProperty(value = "e4")
+  private String email4;
+  public String getUsername1() {
+    return username1;
+  }
+
+  public void setUsername1(String username1) {
+    this.username1 = username1;
+  }
+
+  public String getPassword1() {
+    return password1;
+  }
+
+  public void setPassword1(String password1) {
+    this.password1 = password1;
+  }
+
+  public String getEmail1() {
+    return email1;
+  }
+
+  public void setEmail1(String email1) {
+    this.email1 = email1;
+  }
+
+  public String getUsername2() {
+    return username2;
+  }
+
+  public void setUsername2(String username2) {
+    this.username2 = username2;
+  }
+
+  public String getPassword2() {
+    return password2;
+  }
+
+  public void setPassword2(String password2) {
+    this.password2 = password2;
+  }
+
+  public String getEmail2() {
+    return email2;
+  }
+
+  public void setEmail2(String email2) {
+    this.email2 = email2;
+  }
 
   public UserJson() {
   }
